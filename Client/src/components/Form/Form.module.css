@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+.container{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 2% 5%;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #191919;
+    -webkit-box-shadow: 3px 3px #fafafa;
+    box-shadow: 3px 3px #fafafa;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5%;
+}
+
+  .button {
+    font-family: monospace;
+    font-size: 1rem;
+    color: #FAFAFA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #363a3b;
+    -webkit-box-shadow: 3px 3px #fafafa;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 10% 0 0 0;
+}
+
+.button:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translate(3px, 3px);
+    -ms-transform: translate(3px, 3px);
+    transform: translate(3px, 3px);
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}
+
+.input{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #FAFAFA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #363a3b;
+    -webkit-box-shadow: 3px 3px #fafafa;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 5% 0 0 0;
+}
+
+.input:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}
+
+.input:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translate(3px, 3px);
+    -ms-transform: translate(3px, 3px);
+    transform: translate(3px, 3px);
+}
+
+.input::placeholder {
+    color: #646363;
+}
+
+.img {
+    width: 100%; /* Ancho máximo deseado */
+    height: 100%; /* Altura máxima deseada */
+  }
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5% ;
+  }

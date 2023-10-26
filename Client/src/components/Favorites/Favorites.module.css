@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.option{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #191919;
+    -webkit-box-shadow: 3px 3px #fafafa;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.option:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translate(3px, 3px);
+    -ms-transform: translate(3px, 3px);
+    transform: translate(3px, 3px);
+  }
+
+.option:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}

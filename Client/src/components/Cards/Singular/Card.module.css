@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+.cardContainer {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #d5def5; 
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d5def5; 
+    background: #363a3b;
+    -webkit-box-shadow: 3px 3px #d5def5; 
+    box-shadow: 3px 3px #d5def5; 
+    overflow: hidden;
+}
+
+.cardContainer:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}
+  
+.cardInfo {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.origin{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.cardImage {
+    margin-top: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+
+.closeButton{
+    align-self: self-start;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #191919;
+    -webkit-box-shadow: 3px 3px #fafafa;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.closeButton:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translate(3px, 3px);
+    -ms-transform: translate(3px, 3px);
+    transform: translate(3px, 3px);
+  }
+
+  .name {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.5rem;
+  }
